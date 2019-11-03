@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div id="about">
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis nihil impedit, blanditiis rerum ipsum quam, ad iste voluptatem ex veniam esse eligendi hic nobis eaque beatae tempore. Harum, cupiditate.</p>
+      <div data-aos="fade-down" data-aos-once="true" data-aos-delay="100">
+        <p>I’m a graphic designer and front-end developer based in Brussels, Belgium. Creative, with a deep interest for graphic culture, I’m willing to go from design to implementation of web projects.</p>
       </div>
-      <div>
+      <div data-aos="fade-down" data-aos-once="true" data-aos-delay="400">
         <h4>Software</h4>
         <ul>
           <li>Photoshop</li>
@@ -12,11 +12,10 @@
           <li>InDesign</li>
           <li>Adobe XD</li>
           <li>Visual Studio Code</li>
-          <li>Git</li>
         </ul>
       </div>
-      <div>
-        <h4>Language</h4>
+      <div data-aos="fade-down" data-aos-once="true" data-aos-delay="700">
+        <h4>Skills</h4>
         <ul>
           <li>HTML5</li>
           <li>CSS3 (including Sass)</li>
@@ -24,8 +23,8 @@
           <li>Vue.js</li>
           <li>PHP (Wordpress)</li>
           <li>Bootstrap</li>
-          <li>Ajax</li>
-          <li>Node</li>
+          <li>Git</li>
+          <li>Scrum</li>
         </ul>
       </div>
     </div>
@@ -70,7 +69,7 @@ h4 {
   font-weight: 500;
   position: relative;
   display: inline-block;
-  margin-bottom: .9em;
+  margin-bottom: 0.9em;
   &::after {
     content: "";
     position: absolute;

@@ -9,16 +9,17 @@
         :data-rellax-speed="project.dataSpeed"
         class="project"
       >
-        <!-- data-aos -->
-        <div data-aos="fade-up" data-aos-duration="1000" :data-aos-delay="computeDelay(index)">
-          <div class="image">
-            <img :src="project.projectImage" alt="project image">
+        <!-- project inside-->
+        <router-link :to="{ name: 'details', params: { projectId: project.id }}">
+          <div data-aos="fade-up" data-aos-duration="1000" :data-aos-delay="computeDelay(index)">
+            <div class="image">
+              <img :src="project.projectImage" alt="project image">
+            </div>
+            <h3>{{project.projectTitle}}</h3>
+            <p>{{project.projectType}}</p>
           </div>
-          <h3>{{project.projectTitle}}</h3>
-          <p>{{project.projectType}}</p>
-          <router-link :to="{ name: 'details', params: { projectId: project.id }}">{{project.projectTitle}}</router-link>
-        </div>
-        <!-- data-aos End -->
+        </router-link>
+        <!-- project inside End -->
       </div>
       <!-- Project End -->
     </div>
@@ -27,12 +28,7 @@
 
 
 <script>
-import martineImage from "@/assets/martine1.jpg";
-import horschampsImage from "@/assets/map1.jpg";
-import helmutImage from "@/assets/martine1.jpg";
-import reactImage from "@/assets/map1.jpg";
-import sncbImage from "@/assets/martine1.jpg";
-import teaImage from "@/assets/map1.jpg";
+import projects from "@/store/projects.js";
 
 export default {
   name: "home",
@@ -43,50 +39,7 @@ export default {
   },
   data: function() {
     return {
-      projects: [
-        {
-          projectTitle: "Martine Durt",
-          projectType: "website",
-          projectImage: martineImage,
-          dataSpeed: -2,
-          id: "martinedurt",
-        },
-        {
-          projectTitle: "Hors-Champs",
-          projectType: "website",
-          projectImage: horschampsImage,
-          dataSpeed: 1,
-          id: "horschamps",
-        },
-        {
-          projectTitle: "Helmut Newton",
-          projectType: "Layout Magazine",
-          projectImage: helmutImage,
-          dataSpeed: -2,
-          id: "helmutnewton",
-        },
-        {
-          projectTitle: "Re-act",
-          projectType: "web design, branding",
-          projectImage: reactImage,
-          dataSpeed: 1,
-          id: "react",
-        },
-        {
-          projectTitle: "SNCB",
-          projectType: "pictrograms",
-          projectImage: sncbImage,
-          dataSpeed: -2,
-          id: "scnb",
-        },
-        {
-          projectTitle: "Mariage Frères",
-          projectType: "packaging",
-          projectImage: teaImage,
-          dataSpeed: 1,
-          id: "mariagefreres",
-        }
-      ]
+      projects: projects
     };
   }
 };
@@ -113,21 +66,21 @@ export default {
       height: 50vh;
       position: relative;
       transition: 0.3s all ease;
-      cursor: url("../assets/cursor-plus.png") 2 2, pointer;
       overflow: hidden;
+      cursor: url("../assets/cursor-plus.png") 2 2, pointer;
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         transition: 0.3s all ease;
+        // filter: grayscale(100%);
       }
-    }
-    &:hover {
-      .image {
+      &:hover {
         transform: scale(0.9);
-      }
-      img {
-        transform: scale(1.2);
+        img {
+          transform: scale(1.2);
+          // filter: grayscale(0);
+        }
       }
     }
   }
@@ -139,7 +92,7 @@ export default {
 }
 
 h3 {
-  color: black;
+  color: #2e3235;
   font-size: 1em;
   display: inline-block;
   margin-bottom: 0em;
@@ -149,6 +102,7 @@ h3 {
 }
 
 p {
+  color: #2e3235;
   margin-top: 0;
   font-weight: 300;
 }
