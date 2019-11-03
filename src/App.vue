@@ -8,7 +8,7 @@
       <a href="mailto:col.peetermans@gmail.com">Mail</a>,
       <a href="tel:+32497100076">Tel</a>
     </nav>
-    <router-view/>
+    <router-view :key="$route.fullPath" />
   </div>
 </template>
 

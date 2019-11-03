@@ -16,7 +16,7 @@
         <h4>Tools:</h4>
         <p>{{ project.tools}}</p>
       </div>
-      <div>
+      <div v-if="project.link !== '/'">
         <h4>Link:</h4>
         <a :href="project.linkUrl" target="_blank">{{ project.link}}</a>
       </div>

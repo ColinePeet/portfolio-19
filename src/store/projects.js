@@ -39,7 +39,7 @@ const projects = {
       tools: "HTML5, Bootstrap, JS/jQuery, CSS3/Sass",
       linkUrl: "https://www.martinedurt.be",
       link: "www.martinedurt.be",
-      description: "Martine Durt est une artiste peintre belge. Martine a de nombreuses expositions à son actif et avait besoin d'un site afin d'y retrouver ses dernières peintures et son parcours. Un site très simple qui mets ses peintures en valeurs.",
+      description: "Martine Durt is a belgian painter. She has done many exhibitions over the years and needed a simple website to show her latest paintings and bio.",
       pictures: [
         martineImage_2,
       ],
@@ -54,7 +54,7 @@ const projects = {
       tools: "HTML5, JS/jQuery, CSS3/Sass, Wordpress (PHP)",
       linkUrl: "https://www.hors-champs.be",
       link: "www.hors-champs.be",
-      description: "Hors-Champs est le restaurant du chef étoilé Stefan Jacobs, construit dans une ferme. Spécialisé dans la haute gastronomie et la cuisine locale, le website de hors-champs se devait d'y faire partager l'éthique et les valeurs du restaurant.",
+      description: "Design and development of Hors-Champs’ website. Hors-Champs is a gastronomic restaurant recently built on a domain that served as a farm in the past. In addition to the restaurant, Hors-Champs proposes a beautiful event venue and several bed & breakfast rooms. The website needed to promote these three key activities: restaurant, event venue and bed & breakfast. A custom theme was developed for Wordpress.",
       pictures: [
         horschampsImage_2, horschampsImage_3,
       ],
@@ -69,7 +69,7 @@ const projects = {
       tools: "InDesign",
       linkUrl: "",
       link: "/",
-      description: "Retrospective brochure of famous photographer Helmut Newton at Bozar. Maquette. 40 pages.",
+      description: "Retrospective brochure of the famous photographer Helmut Newton for the Bozar (training exercise). 40 pages Edition.",
       pictures: [
         newtonImage_1, newtonImage_3, newtonImage_4,
       ],
@@ -84,7 +84,7 @@ const projects = {
       tools: "Illustrator, Photoshop",
       linkUrl: "",
       link: "/",
-      description: "Visual for the packaging of the Magic Tea collection by Mariage Frères. The cards on the top of the box represents tarot cards. Maquette.",
+      description: "New visual for the packaging of the Magic Tea collection by Mariage Frères. The cards on the top of the box represents tarot cards. The illustrations on them are handmade, then vectorized for the packaging.",
       pictures: [
         mariageImage_2, mariageImage_3,
       ],
@@ -99,7 +99,7 @@ const projects = {
       tools: "Vue.js, Sass, Ajax",
       linkUrl: "https://github.com/ColinePeet/evalutation_front_end",
       link: "project on github",
-      description: "Travel plan website. Requêtes Ajax permet d'afficher les différentes destinations que l'utilisateur choisi. Maquette. Projet réalisé en 2 jours.",
+      description: "Travel agency website made in two days as a training exercise. Built with Vue.js and connecting to a REST API. An asynchronous request allows to show information related to the destination picked by the user.",
       pictures: [
         travelistaImage_2,
       ],
@@ -114,7 +114,7 @@ const projects = {
       tools: "HTML5",
       linkUrl: "https://github.com/ColinePeet/weekday-newsletter",
       link: "project on github",
-      description: "Newsletter for the brand Weekday. Maquette.",
+      description: "Design and development of a Newsletter for Weekday store as a training exercise. This is a typical « weekly edit » of the Weekday brand, wich puts a selection of clothes in value..",
       pictures: [
         weekdayImage_2,
       ],
@@ -129,7 +129,7 @@ const projects = {
       tools: "Adobe XD, Photoshop, Illustrator",
       linkUrl: "",
       link: "/",
-      description: "Re-act is a fictive brand of products only made from Piñatex, a natural leather alternative extracted from pineapple fibres. I made the logo, the website, the tags and a minimal packaging. Maquette.",
+      description: "Re-act is a fictive brand of products only made from Piñatex, a natural leather alternative extracted from pineapple fibres. As an exercice, I made the logo, the website's design, the tags and a minimal packaging.",
       pictures: [
         reactImage_2, reactImage_3, reactImage_4, reactImage_5,
       ],
