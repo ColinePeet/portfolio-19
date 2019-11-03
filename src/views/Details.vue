@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!-- image head -->
-    <div id="project-head" data-aos="fade-up" data-aos-once="true">
+    <div id="project-head" data-aos="fade-down" data-aos-once="true">
       <img :src="project.projectImage" alt="Project image">
     </div>
     <!-- image head End-->

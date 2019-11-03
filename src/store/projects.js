@@ -69,7 +69,7 @@ const projects = {
       tools: "InDesign",
       linkUrl: "",
       link: "/",
-      description: "Retrospective brochure of the famous photographer Helmut Newton for the Bozar (training exercise). 40 pages Edition.",
+      description: "Retrospective brochure of the famous photographer Helmut Newton for the Bozar (training exercise). 40 pages edition.",
       pictures: [
         newtonImage_1, newtonImage_3, newtonImage_4,
       ],
@@ -114,7 +114,7 @@ const projects = {
       tools: "HTML5",
       linkUrl: "https://github.com/ColinePeet/weekday-newsletter",
       link: "project on github",
-      description: "Design and development of a Newsletter for Weekday store as a training exercise. This is a typical « weekly edit » of the Weekday brand, wich puts a selection of clothes in value..",
+      description: "Design and development of a Newsletter for Weekday store as a training exercise. This is a typical 'weekly edit' of the Weekday brand, wich puts a selection of items in value.",
       pictures: [
         weekdayImage_2,
       ],
